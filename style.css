@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    overflow:hidden;
+
+    background:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+canvas{
+    border:3px solid black;
+}
+
+#score{
+    position:absolute;
+
+    top:15px;
+    left:15px;
+
+    font-size:30px;
+    font-weight:bold;
+}
+
+#gameOver{
+    display:none;
+
+    position:absolute;
+
+    text-align:center;
+
+    background:white;
+
+    border:3px solid black;
+
+    padding:30px;
+}
